@@ -62,7 +62,7 @@ const Recap = (props) => {
                     <Rating>IMDb RATING: {rating}</Rating>
                 </Title>
                 <GenreWrapper>
-                    {genres.map(genre => (<Genre>{genre}</Genre>))}
+                    {genres.map((genre, index) => (<Genre key={index}>{genre}</Genre>))}
                 </GenreWrapper>
                 <Content>
                     {body}

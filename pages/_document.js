@@ -28,9 +28,9 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <style amp-custom>
-            {inlineCss}
-          </style>
+          <style amp-custom>{`
+            ${inlineCss}
+            `}</style>
         </Head>
         <body>
           <Main />
