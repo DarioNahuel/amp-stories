@@ -109,7 +109,6 @@ const mockData = [
   },
   {
     id: '7',
-    title: 'Rocky',
     media_info: {
       id: '7',
       media_type: 'IMAGE',
@@ -122,6 +121,7 @@ const mockData = [
   },
   {
     id: '8',
+    title: 'BE A CHAMPION',
     media_info: {
       id: '8',
       media_type: 'IMAGE',
