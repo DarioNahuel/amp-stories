@@ -1,6 +1,6 @@
 {
   "name": "learn-starter-dx",
-  "version": "1.5.0-preminor.0",
+  "version": "1.6.0-0",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\"",
