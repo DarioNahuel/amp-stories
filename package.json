@@ -7,7 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepublishOnly": "yarn run test"
+    "prepublishOnly": "yarn run test",
+    "release:prepatch": "npm version prepatch && npm publish --tag prepatch",
+    "release:preminor": "npm version preminor && npm publish --tab preminor && git push --follow-tags",
+    "release:premajor": "npm version premmajor"
   },
   "dependencies": {
     "next": "^11.0.0",
