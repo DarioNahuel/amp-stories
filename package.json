@@ -9,7 +9,7 @@
     "start": "next start",
     "prepublishOnly": "yarn run test",
     "release:prepatch": "npm version prepatch --preid prepatch && npm publish --tag prepatch && git push --follow-tags",
-    "release:preminor": "npm version preminor --preid preminor && npm publish --tag preminor && git push --follow-tags",
+    "release:preminor": "npm version preminor && npm publish --tag preminor && git push --follow-tags",
     "release:premajor": "npm version premajor --preid premajor && npm publish --tag premajor && git push --follow-tags"
   },
   "dependencies": {
