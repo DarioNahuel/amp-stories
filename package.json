@@ -1,11 +1,13 @@
 {
-  "name": "learn-starter",
+  "name": "learn-starter-dx",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
+    "test": "echo \"Error: no test specified\"",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prepublishOnly": "yarn run test"
   },
   "dependencies": {
     "next": "^11.0.0",
