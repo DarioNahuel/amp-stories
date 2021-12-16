@@ -1,6 +1,6 @@
 {
   "name": "learn-starter-dx",
-  "version": "1.7.0-0",
+  "version": "1.4.0-preminor.0",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\"",
@@ -8,9 +8,9 @@
     "build": "next build",
     "start": "next start",
     "prepublishOnly": "yarn run test",
-    "release:prepatch": "npm version prepatch --preid prepatch && npm publish --tag prepatch && git push --follow-tags",
-    "release:preminor": "npm version preminor && npm publish --tag preminor && git push --follow-tags",
-    "release:premajor": "npm version premajor --preid premajor && npm publish --tag premajor && git push --follow-tags"
+    "release:prepatch": "npm version prerelease --preid prepatch && npm publish --tag prepatch",
+    "release:preminor": "npm version prerelease --preid preminor && npm publish --tag preminor",
+    "release:premajor": "npm version prerelease --preid premajor && npm publish --tag premajor"
   },
   "dependencies": {
     "next": "^11.0.0",
