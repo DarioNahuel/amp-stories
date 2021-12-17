@@ -9,7 +9,7 @@
     "start": "next start",
     "prepublishOnly": "yarn run test",
     "release:prepatch": "npm version prerelease --preid prepatch && npm publish --tag prepatch",
-    "release:preminor": "npm version prerelease --preid preminor && npm publish --tag preminor",
+    "release:preminor": "np preminor --tag=preminor",
     "release:premajor": "npm version prerelease --preid premajor && npm publish --tag premajor",
     "release": "./scripts/check-if-master-branch.sh && yarn test && npm version from-git && npm publish"
   },
@@ -21,6 +21,7 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.13.3"
+    "babel-plugin-styled-components": "^1.13.3",
+    "np": "^7.6.0"
   }
 }
