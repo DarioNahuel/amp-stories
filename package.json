@@ -11,7 +11,7 @@
     "release:prepatch": "np prepatch --tag=prepatch",
     "release:preminor": "np preminor --tag=preminor",
     "release:premajor": "np premajor --tag=premajor",
-    "release": "./scripts/check-if-master-branch.sh && np 1.2.3"
+    "release": "./scripts/check-if-master-branch.sh && np"
   },
   "dependencies": {
     "next": "^11.0.0",
