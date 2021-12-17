@@ -1,6 +1,6 @@
 {
   "name": "learn-starter-dx",
-  "version": "2.2.0-0",
+  "version": "2.2.0",
   "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\"",
@@ -11,7 +11,7 @@
     "release:prepatch": "np prepatch --tag=prepatch",
     "release:preminor": "np preminor --tag=preminor",
     "release:premajor": "np premajor --tag=premajor",
-    "release": "./scripts/check-if-master-branch.sh && np patch" 
+    "release": "./scripts/check-if-master-branch.sh && np patch"
   },
   "dependencies": {
     "next": "^11.0.0",
