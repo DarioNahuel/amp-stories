@@ -8,9 +8,9 @@
     "build": "next build",
     "start": "next start",
     "prepublishOnly": "yarn run test",
-    "release:prepatch": "npm version prerelease --preid prepatch && npm publish --tag prepatch",
-    "release:preminor": "np preminor --tag=preminor",
-    "release:premajor": "npm version prerelease --preid premajor && npm publish --tag premajor",
+    "release:prepatch": "np prepatch --tag=prepatch",
+    "release:preminor": "np preminor --tag=preminor --preview",
+    "release:premajor": "np premajor --tag=premajor",
     "release": "./scripts/check-if-master-branch.sh && yarn test && npm version from-git && npm publish"
   },
   "dependencies": {
